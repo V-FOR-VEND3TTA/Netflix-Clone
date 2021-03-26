@@ -194,6 +194,8 @@ img {
   text-align: center;
 }
 
+/* Table Content */
+
 .table {
   display: flex;
   font-weight: 700;
@@ -201,6 +203,7 @@ img {
   margin-top: 2rem;
   border-collapse: collapse;
   border-spacing: 0;
+  justify-content: center;
   align-items: center;
 }
 
@@ -212,11 +215,11 @@ img {
 	align-items: center;
 }*/
 
-.table tbody {
+/*.table {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
-}
+}*/
 
 .table tr td {
   color: #999;
@@ -224,11 +227,11 @@ img {
   text-align: center;
 }
 
-.table tbody tr td:first-child {
+.table tr td:first-child {
   text-align: left;
 }
 
-.table tbody tr:nth-child(odd) {
+.table tr:nth-child(odd) {
   background: #222;
 }
 
